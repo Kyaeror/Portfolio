@@ -2,6 +2,10 @@ h1 {
     display: inline-block;
     font-size: 30px;
 }
+header{
+    margin-bottom: 25px;
+    background-color: silver;
+}
 header nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -21,4 +25,10 @@ li {
 }
 footer {
     float: right;
+    background-color: yellow;
+}
+main img{
+    height: 300px;
+    width: 500px;
+    margin-bottom: 25px;
 }
