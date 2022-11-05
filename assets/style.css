@@ -1,4 +1,4 @@
-h1 {
+header h1 {
     display: inline-block;
     font-size: 30px;
 }
@@ -26,9 +26,22 @@ li {
 footer {
     float: right;
     background-color: yellow;
+    margin-bottom: 25px;
+}
+main{
+    margin-bottom: 25px;
+}
+main nav{
+    display: flex;
+    justify-content: center;
 }
 main img{
     height: 300px;
     width: 500px;
     margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+main h2{
+    text-align: center;
 }
