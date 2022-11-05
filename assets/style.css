@@ -1,0 +1,21 @@
+h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+a {
+    color: blue; 
+    text-decoration: none;
+}
