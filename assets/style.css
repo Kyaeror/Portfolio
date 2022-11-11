@@ -8,46 +8,56 @@ body{
     background-color: grey;
 }
 .heading{
+    display: flex;
+    justify-content: space-between;
     background-color: black;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.profile{
+    height:10vh;
+    width:10vh;
+    margin: 0px;
+    padding: 0px;
 }
 h1{
     color:white;
-    font-size:45px;
+    font-size: 3vh;
     display:inline-block;
-    font-family: 'Courier New', Courier, monospace
+    font-family: cursive, 'Courier New', Courier, monospace
 }
 header nav ul a{
     color:white;
 }
-p{
-    font-size: 20px;
-}
 .navigation{
-    font-size: 25px;
+    width: 15vh;
+    height: 10vh;
+    font-size: 2vh;
     display:inline-block;
-    margin-left: 25px;
-    margin-top: 25px;
-}
-nav{
-    float:right;
+    padding-right: 5vh;
 }
 .background-image{
     width:100%;
-    height: 500px;
+    height:500px;
 }
-#projects{
+.section-title{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-main section p{
-    width: 300px;
-    height: 200px;
+.description, .link{
+    width: 30vh;
     text-align: center;
+    font-size: 2vh;
+}
+.about-me-description{
+    width: 160vh;
 }
 .image{
-    font-size: 25px;
+    font-size: 2.5vh;
     text-align: center;
+    height: 75vh;
+    width: 40vh;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -58,14 +68,15 @@ main section p{
     border: 3px solid black;
 }
 section img{
-    height: 200px;
-    width: 300px;
+    height: 20vh;
+    width: 30vh;
 }
 .title{
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 50px;
+    font-size: 3vh;
+    margin-bottom: 5vh;
 }
 footer{
+    color: black;
     background-color: yellow;
 }
